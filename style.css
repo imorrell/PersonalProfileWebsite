@@ -1,0 +1,173 @@
+body
+{
+    background-color: lightslategrey;
+    background-image: url("download.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.Hobbies
+{
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-right: 300px;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Hobbies h2
+{
+    font-size: 30px;
+}
+
+.Hobbies ul li
+{
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.basketballPic
+{
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+.Development
+{
+    float: left;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 75px;
+    background-image: url("computer.jpg");
+    box-shadow:inset 0 0 0 2000px rgba(5, 40, 54, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.Development h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.Development p
+{
+    
+    font-size: 20px;
+    text-align: center;
+}
+
+.MyPassion
+{
+    float: left;
+    margin-top: 75px;
+    padding-top: 75px;
+    padding-bottom: 150px;
+}
+
+.navList
+{
+    position: fixed;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+.navList ul
+{
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+}
+
+.navList li
+{
+    float: left;
+    list-style-type: none ;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.navList li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-size-adjust: 14px;
+  }
+  
+.navList li a:hover {
+    background-color: #111;
+  }  
+
+
+  .myProjects
+  {
+      padding-top: 100px;
+      text-align: center;
+  }
+
+.projectOne
+{
+    float: left;
+    margin-right: 200px;
+}
+
+.projectTwo
+{
+    float: left;
+    margin-right: 200px;
+}
+
+.projectThree
+{
+    float: left;
+    margin-right: 200px;
+}
+
+
+  .bioPic
+  {
+    width: 550px;
+    height: 1000px;
+    float: right;
+
+  }
+
+  .aboutMeInfo
+  {
+      float: left;
+      margin-left: 50px;
+      padding-top: 50px;
+      text-align:center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .aboutMeInfo p
+  {
+    font-size: 18px;
+  }
+
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    display: inline-block;
+    color: white;
+    text-align: center;
+  }
